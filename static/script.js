@@ -3837,6 +3837,10 @@ var players = [{
         showResults($("#name-guess").val());
     });
     
+    for(let i = 0; i < players.length; i++) {
+        search_terms.push(players[i]['name'])
+    }
+
     $.ajax({
         url: "/epl_table.json",
         type: "GET",
