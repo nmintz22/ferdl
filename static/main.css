@@ -1,0 +1,254 @@
+#game-header-div {
+    text-align: center;
+    border-bottom: 1px dashed black;
+    padding-bottom: .25em;
+    padding-top: .25em;
+    margin-bottom: 1em;
+}
+#ng-1 {
+    padding-top: 0em;
+    width: 177px;
+}
+.guess-row {
+    border: 3px solid black;
+    height: 6.5em;
+    text-align: center;
+}
+.answer-row {
+    border: 1px solid black;
+    height: 6.5em;
+    text-align: center;
+}
+.answer-col {
+    padding-top:2em;
+    border: 1px solid black;
+    width:fit-content;
+    text-align:center;
+}
+.a-1 {
+    background-color: lightgreen;
+}
+.a-2 {
+    background-color: rgb(112, 233, 152);
+}
+#results-display-1 {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+}
+#results-display-2 {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+}
+#results-display-3 {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+}
+#results-display-4 {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+}
+#results-display-5 {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+}
+#results-display-6 {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+}
+#results-display-7 {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+}
+#results-display-8 {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+}
+.results-bar-1, .results-bar-2 {
+    background-color: white;
+    user-select: none;
+}
+.results-bar-2:hover, .results-bar-1:hover {
+    background-color: lightgray;
+}
+.entered-name {
+    font-size: 18px;
+    margin-top: 2.5em;
+    white-space: nowrap;
+}
+.tbl-hdr {
+    text-align: center;
+}
+#r-2 {
+    visibility: hidden;
+}
+#r-3 {
+    visibility: hidden;
+}
+#r-4 {
+    visibility: hidden;
+}
+#r-5 {
+    visibility: hidden;
+}
+#r-6 {
+    visibility: hidden;
+}
+#r-7 {
+    visibility: hidden;
+}
+#r-8 {
+    visibility: hidden;
+}
+.img-icon {
+    height:30px;
+    width:30px;
+    margin-top: 5px;
+}
+input {
+    background-color: rgb(224, 222, 222);
+    border-left:1px solid black;
+    margin-top:2px;
+}
+#name-guess {
+    margin-left: 38%;
+    background-color: rgb(224, 222, 222);
+    margin-top:2px;
+    border-radius: 10px;
+    padding-left: 25px;
+    height: 100px;
+    width: 300px;
+    visibility: hidden;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.club-icon {
+    height: 80px;
+    width: 80px;
+    margin-right: 50% auto;
+    margin-top:10px;
+}
+.club-header {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.icon-holder {
+    float:left;
+    height:100%;
+    width:50%;
+}
+.info-holder {
+    float: right;
+    height:50%;
+    width:50%;
+    margin-top: .5em;
+}
+.cell {
+    background-color: #fffaf1;
+}
+#welcome-modal-holder {
+    z-index:1;
+    display:block;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+#welcome-modal {
+    background-color: aliceblue;
+    position:fixed;
+    left:150px;
+    top:35px;
+    height:90%;
+    width:80%;
+    margin-left:15% auto;
+    border:1px solid black;
+    box-shadow: 0 0 8px rgb(8, 8, 8);
+}
+.fail-cell {
+    background-color: rgb(210,210,210);
+}
+.name-div {
+    float: top;
+    height:25%;
+    width:100%;
+}
+.player-img-div {
+    float: bottom;
+    height:75%;
+    width:100%;
+}
+.player-img {
+    height:70px;
+    width:60px;
+    margin-top:5px;
+}
+.num-ind {
+    background-color: rgb(113, 121, 243);
+}
+.num-ind-hdr {
+    color: rgb(197, 194, 194);
+    font-weight: bold;
+}
+#game-holder {
+    overflow: scroll;
+}
+input {
+    padding: 10px;
+}
+#results-box {
+    width: 325px;
+    height: 100px;
+    margin-left: 36%;
+    margin-bottom: 1.5em;
+}
+#results-list {
+    list-style: none;
+}
+#results-list li {
+    background-color: rgb(247, 239, 230);
+}
+#results-list li:hover {
+    background-color: rgb(235, 230, 230);
+}
+#guess-num, #guesses {
+    text-align: center;
+    visibility: hidden;
+}
+#guess-holder {
+    height: 250px;
+    margin-bottom: 3px;
+}
+#tstr-tbl {
+    width:100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#hdr-tbl {
+    width: 100%;
+    table-layout: fixed;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 5px;
+}
+#hdr-row {
+    margin-bottom: 50px;
+}
+#hint-link:hover {
+    text-decoration: underline;
+}
